@@ -1,4 +1,5 @@
 # Marketing-Team
+The Marketing Team of WordPress.org promotes WordPress to current and future users and contributors. We create and amplify campaigns to support the growth of the WordPress project.
 
 View the Marketing Team's central tasks and projects board:
 [Marketing Tasks Board](https://github.com/orgs/WordPress/projects/21)
