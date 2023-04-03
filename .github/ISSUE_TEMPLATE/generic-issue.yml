@@ -1,0 +1,11 @@
+name: Marketing Issue
+description: Submit a generic marketing issue
+body:
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      description: What can we help you with?
+      placeholder: Leave a comment
+    validations:
+      required: true
