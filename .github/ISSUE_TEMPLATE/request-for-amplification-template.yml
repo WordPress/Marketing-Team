@@ -37,7 +37,7 @@ body:
     id: campaign
     attributes:
       label: Campaign
-      description: Is this content for an existing campaign?
+      description: Is this amplification request part of an existing WordPress campaign?
       multiple: false
       options:
         - Other
