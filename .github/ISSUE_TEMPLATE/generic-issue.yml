@@ -5,7 +5,7 @@ body:
     id: comment
     attributes:
       label: Comment
-      description: What can we help you with?
-      placeholder: Leave a comment
+      description: What is your request, comment, or idea?
+      placeholder: Submit your request
     validations:
       required: true
