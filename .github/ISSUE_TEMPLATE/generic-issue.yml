@@ -1,5 +1,5 @@
 name: Marketing Issue
-description: Submit a generic marketing issue
+description: Submit a general marketing request, comment, or idea
 body:
   - type: textarea
     id: comment
