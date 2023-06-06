@@ -33,6 +33,7 @@ body:
         - Tumblr
         - Email
         - News
+        - Any/All of the above
   - type: dropdown
     id: campaign
     attributes:
