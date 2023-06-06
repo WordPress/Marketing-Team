@@ -1,0 +1,11 @@
+name: Marketing Issue
+description: Submit a general marketing request, comment, or idea
+body:
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      description: What is your request, comment, or idea?
+      placeholder: Submit your request
+    validations:
+      required: true

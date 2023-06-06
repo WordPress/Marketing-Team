@@ -1,0 +1,83 @@
+name: Request for amplification
+description: Request distribution of material by the Marketing Team to various marketing channels
+title: "[AMPLIFY]: "
+labels: ["amplify"]
+assignees:
+  - eidolonnight
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help spreading the news? Let us know what you would like amplified across the WordPress ecosystem.
+  - type: input
+    id: date
+    attributes:
+      label: Post date
+      description: What is your preferred day and time to post? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      placeholder: ex. 24 May 2022
+    validations:
+      required: false
+  - type: dropdown
+    id: channels
+    attributes:
+      label: Where would you like this shared?
+      multiple: true
+      options:
+        - Twitter
+        - Facebook
+        - Instagram
+        - Linkedin
+        - YouTube
+        - Pinterest
+        - Tiktok
+        - Tumblr
+        - Email
+        - News
+        - Any/All of the above
+  - type: dropdown
+    id: campaign
+    attributes:
+      label: Campaign
+      description: Is this amplification request part of an existing WordPress campaign?
+      multiple: false
+      options:
+        - Other
+        - "#WordPress"
+        - "#LearnWP"
+        - "#WPDiversity"
+        - "#WPOpenverse"
+        - "#WPPhotos"
+        - "#GrowYourStoryWP"
+        - "#WPBriefing"
+        - "#WordCamp"
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Suggested content
+      description: Using the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), craft your suggested content for this post. The team will review and edit as-needed prior to posting. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+    validations:
+      required: true
+  - type: checkboxes
+    id: onbrand
+    attributes:
+      label: Style confirmation
+      options:
+        - label: I've read the WordPress Brand Writing Style Guide
+          required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Do you have an article or resource that should be shared with this content?
+      placeholder: ex. https://wordpress.org/news
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any additional notes or details?
+      placeholder: 
+    validations:
+      required: false
