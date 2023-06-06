@@ -55,7 +55,7 @@ body:
     id: content
     attributes:
       label: Suggested content
-      description: Using the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), craft your suggested content.
+      description: Using the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), craft your suggested content for this post. The team will review and edit as-needed prior to posting. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
   - type: checkboxes
@@ -69,7 +69,7 @@ body:
     id: link
     attributes:
       label: Link
-      description: Do you have an article or resource that is being shared with this content?
+      description: Do you have an article or resource that should be shared with this content?
       placeholder: ex. https://wordpress.org/news
     validations:
       required: false
