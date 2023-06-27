@@ -24,7 +24,7 @@ body:
       description: Are there any other relevant dates for this request? Please add additional context as needed.
     validations:
       required: false
-- type: dropdown
+  - type: dropdown
     id: request-type
     attributes:
       label: What is the goal of this amplification request?
@@ -34,7 +34,7 @@ body:
         - Solicit feedback
         - Recruit volunteers
         - Other
-- type: dropdown
+  - type: dropdown
     id: audience
     attributes:
       label: What is the intended audiences or audiences for this content?
@@ -51,7 +51,7 @@ body:
         - Plugin community
         - Theme community
         - Agencies/Enterprise
-     validations:
+    validations:
       required: true
   - type: dropdown
     id: platforms
@@ -117,14 +117,14 @@ body:
     id: content
     attributes:
       label: What do you want to amplify?
-      description: Please describe what you are looking to amplify or promote. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      description: Please describe what you are looking to amplify or promote. include as many details as possible. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
   - type: input
-    id: link
+    id: links
     attributes:
-      label: Link
-      description: Is there an article, resource or other links that should be shared with this content?
+      label: Links
+      description: Are there any posts, articles, resources or other links that should be shared with this content?
       placeholder: ex. https://wordpress.org/news
     validations:
       required: false
@@ -132,6 +132,6 @@ body:
     id: notes
     attributes:
       label: Any additional notes or details?
-      placeholder: 
+      placeholder:
     validations:
       required: false
