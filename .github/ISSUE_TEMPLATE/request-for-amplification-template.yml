@@ -116,11 +116,18 @@ body:
         - Other
     validations:
       required: true
+  - type: text
+    id: summary
+    attributes:
+      label: What do you want to amplify?
+      description: Please provide a short, one-sentence summary of your request.
+    validations:
+      required: true
   - type: textarea
     id: content
     attributes:
-      label: What do you want to amplify?
-      description: Please describe what you are looking to amplify or promote. include as many details as possible. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      label: Amplification request details
+      description: Please describe what you are looking to amplify or promote. Include as many details as possible. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
   - type: input
