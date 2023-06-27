@@ -3,6 +3,8 @@ description: Request amplification by the Marketing Team to various marketing ch
 title: "[AMPLIFY]: "
 labels: ["amplify"]
 assignees:
+  - sereedmedia
+  - robinwpdeveloper
   - eidolonnight
 body:
   - type: markdown
