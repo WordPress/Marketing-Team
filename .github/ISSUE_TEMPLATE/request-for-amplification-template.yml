@@ -10,19 +10,56 @@ body:
       value: |
         Need help spreading the news? Let us know what you would like amplified across the WordPress ecosystem.
   - type: input
-    id: date
+    id: deadline
     attributes:
-      label: Important dates and deadlines
-      description: Are there any relevant dates or deadlines for this request? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      label: Deadline
+      description: Is there a firm deadline for this request? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
       placeholder: ex. 24 May 2024
     validations:
       required: false
-  - type: dropdown
-    id: channels
+  - type: textarea
+    id: important-dates
     attributes:
-      label: Where would you like this shared?
+      label: Additional important dates
+      description: Are there any other relevant dates for this request? Please add additional context as needed.
+    validations:
+      required: false
+- type: dropdown
+    id: request-type
+    attributes:
+      label: What is the goal of this amplification request?
       multiple: true
       options:
+        - Inform community/make an announcement (no action necessary)
+        - Solicit feedback
+        - Recruit volunteers
+        - Other
+- type: dropdown
+    id: audience
+    attributes:
+      label: What is the intended audiences or audiences for this content?
+      multiple: true
+      options:
+        - Any/All
+        - General WordPress community
+        - MakeWP community
+        - WordPress users (existing)
+        - WordPress users (new/potential)
+        - Builders/implementers
+        - Developers
+        - Designers
+        - Plugin community
+        - Theme community
+        - Agencies/Enterprise
+     validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Are there any specific platforms where you would like this to be shared?  
+      multiple: true
+      options:
+        - Any/All
         - Twitter
         - Facebook
         - Instagram
@@ -33,16 +70,16 @@ body:
         - Tumblr
         - Email
         - News
-        - Any/All of the above
+    validations:
+      required: false
   - type: dropdown
     id: campaign
     attributes:
       label: Campaign
       description: Is this amplification request part of an existing WordPress campaign?
-      multiple: false
+      multiple: true
       options:
-        - Other
-        - "#WordPress"
+        - Not part of a campaign
         - "#LearnWP"
         - "#WPDiversity"
         - "#WPOpenverse"
@@ -59,20 +96,20 @@ body:
       description: What MakeWP Team is this request for?
       multiple: true
       options:
-        - "Accessibility Team"
-        - "Community Team"
-        - "Core Team"
-        - "Design Team"
-        - "Documentation Team"
-        - "Hosting Team"
-        - "Marketing Team"
-        - "Meta Team"
-        - "Plugins Team"
-        - "Polyglots Team"
-        - "Support Team"
-        - "Sustainability Team"
-        - "Themes Team"
-        - "Training Team"
+        - Accessibility Team
+        - Community Team
+        - Core Team
+        - Design Team
+        - Documentation Team
+        - Hosting Team
+        - Marketing Team
+        - Meta Team
+        - Plugins Team
+        - Polyglots Team
+        - Support Team
+        - Sustainability Team
+        - Themes Team
+        - Training Team
         - Other
     validations:
       required: true
@@ -80,7 +117,7 @@ body:
     id: content
     attributes:
       label: What do you want to amplify?
-      description: Please describe what you are looking to amplify or promote. If you have specific content written, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      description: Please describe what you are looking to amplify or promote. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
   - type: input
