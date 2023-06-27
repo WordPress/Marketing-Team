@@ -73,7 +73,7 @@ body:
         - Email
         - News
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: campaign
     attributes:
@@ -89,7 +89,7 @@ body:
         - "#WPBriefing"
         - "#WordCamp"
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: make-team
     attributes:
@@ -125,14 +125,14 @@ body:
     id: links
     attributes:
       label: Links
-      description: Are there any posts, articles, resources or other links that should be shared with this content?
-      placeholder: ex. https://wordpress.org/news
+      description: Are there any posts, articles, resources or other links that should be shared with this content? Please provide the link and any context.
+      placeholder: ex. "https://wordpress.org/news - This is a link to the page we want people to go to"
     validations:
       required: false
   - type: textarea
     id: notes
     attributes:
-      label: Any additional notes or details?
+      label: Any additional notes or details? If you marked "Other" above, please provide additional details here.
       placeholder:
     validations:
       required: false
