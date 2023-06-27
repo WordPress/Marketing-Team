@@ -11,21 +11,6 @@ body:
     attributes:
       value: |
         Need help spreading the news? The Marketing team can help amplify MakeWP content across the WordPress ecosystem.
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      description: Is there a firm deadline for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
-      placeholder: ex. 24 May 2024
-    validations:
-      required: false
-  - type: textarea
-    id: important-dates
-    attributes:
-      label: Additional important dates
-      description: Are there any other relevant dates for this request? Please add additional context as needed.
-    validations:
-      required: false
   - type: dropdown
     id: request-type
     attributes:
@@ -136,6 +121,21 @@ body:
       label: Links
       description: Are there any posts, articles, resources or other links that should be shared with this content? Please provide the link and any context.
       placeholder: ex. "https://wordpress.org/news - This is a link to the page we want people to go to"
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: Is there a firm deadline for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      placeholder: ex. 24 May 2024
+    validations:
+      required: false
+  - type: textarea
+    id: important-dates
+    attributes:
+      label: Additional important dates
+      description: Are there any other relevant dates for this request? Please add additional context as needed.
     validations:
       required: false
   - type: textarea
