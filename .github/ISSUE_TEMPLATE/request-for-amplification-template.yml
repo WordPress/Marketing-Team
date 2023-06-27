@@ -1,7 +1,7 @@
 name: Request for amplification
 description: Request distribution of material by the Marketing Team to various marketing channels
 title: "[AMPLIFY]: "
-labels: ["amplify"]
+labels: ["amplification-request"]
 assignees:
   - eidolonnight
 body:
