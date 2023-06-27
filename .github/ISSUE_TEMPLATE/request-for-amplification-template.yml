@@ -1,5 +1,5 @@
 name: Request for amplification
-description: Request distribution of material by the Marketing Team to various marketing channels
+description: Request amplification by the Marketing Team to various marketing channels
 title: "[AMPLIFY]: "
 labels: ["amplify"]
 assignees:
@@ -12,9 +12,9 @@ body:
   - type: input
     id: date
     attributes:
-      label: Post date
-      description: What is your preferred day and time to post? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
-      placeholder: ex. 24 May 2022
+      label: Important dates and deadlines
+      description: Are there any relevant dates or deadlines for this request? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      placeholder: ex. 24 May 2024
     validations:
       required: false
   - type: dropdown
@@ -51,26 +51,43 @@ body:
         - "#WPBriefing"
         - "#WordCamp"
     validations:
+      required: false
+        - type: dropdown
+    id: make-team
+    attributes:
+      label: MakeWP Team
+      description: What MakeWP Team is this request for?
+      multiple: true
+      options:
+        - "Accessibility Team"
+        - "Community Team"
+        - "Core Team"
+        - "Design Team"
+        - "Documentation Team"
+        - "Hosting Team"
+        - "Marketing Team"
+        - "Meta Team"
+        - "Plugins Team"
+        - "Polyglots Team"
+        - "Support Team"
+        - "Sustainability Team"
+        - "Themes Team"
+        - "Training Team"
+        - Other
+    validations:
       required: true
   - type: textarea
     id: content
     attributes:
-      label: Suggested content
-      description: Using the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), craft your suggested content for this post. The team will review and edit as-needed prior to posting. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      label: What do you want to amplify?
+      description: Please describe what you are looking to amplify or promote. If you have specific content written, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
-  - type: checkboxes
-    id: onbrand
-    attributes:
-      label: Style confirmation
-      options:
-        - label: I've read the WordPress Brand Writing Style Guide
-          required: true
   - type: input
     id: link
     attributes:
       label: Link
-      description: Do you have an article or resource that should be shared with this content?
+      description: Is there an article, resource or other links that should be shared with this content?
       placeholder: ex. https://wordpress.org/news
     validations:
       required: false
