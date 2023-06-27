@@ -15,7 +15,7 @@ body:
     id: deadline
     attributes:
       label: Deadline
-      description: Is there a firm deadline for this request? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      description: Is there a firm deadline for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
       placeholder: ex. 24 May 2024
     validations:
       required: false
