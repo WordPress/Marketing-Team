@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Need help spreading the news? Let us know what you would like amplified across the WordPress ecosystem.
+        Need help spreading the news? The Marketing team can help amplify MakeWP content across the WordPress ecosystem.
   - type: input
     id: deadline
     attributes:
@@ -40,7 +40,7 @@ body:
       label: What is the intended audiences or audiences for this content?
       multiple: true
       options:
-        - Any/All
+        - Any/All/Don't know
         - General WordPress community
         - MakeWP community
         - WordPress users (existing)
@@ -59,7 +59,7 @@ body:
       label: Are there any specific platforms where you would like this to be shared?  
       multiple: true
       options:
-        - Any/All
+        - Any/All/Don't know
         - Twitter
         - Facebook
         - Instagram
@@ -79,7 +79,6 @@ body:
       description: Is this amplification request part of an existing WordPress campaign?
       multiple: true
       options:
-        - Not part of a campaign
         - "#LearnWP"
         - "#WPDiversity"
         - "#WPOpenverse"
