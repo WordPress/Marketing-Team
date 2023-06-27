@@ -36,6 +36,8 @@ body:
         - Solicit feedback
         - Recruit volunteers
         - Other
+    validations:
+      required: true
   - type: dropdown
     id: audience
     attributes:
