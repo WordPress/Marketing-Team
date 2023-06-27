@@ -116,7 +116,7 @@ body:
         - Other
     validations:
       required: true
-  - type: text
+  - type: input
     id: summary
     attributes:
       label: What do you want to amplify?
