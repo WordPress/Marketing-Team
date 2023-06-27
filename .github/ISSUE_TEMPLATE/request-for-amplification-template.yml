@@ -52,7 +52,7 @@ body:
         - "#WordCamp"
     validations:
       required: false
-        - type: dropdown
+  - type: dropdown
     id: make-team
     attributes:
       label: MakeWP Team
