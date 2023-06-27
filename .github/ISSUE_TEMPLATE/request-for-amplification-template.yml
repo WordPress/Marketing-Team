@@ -14,7 +14,7 @@ body:
   - type: dropdown
     id: request-type
     attributes:
-      label: What is the goal of this amplification request?  (Select all that apply)
+      label: What is the goal of this amplification request? (select all that apply)
       multiple: true
       options:
         - Inform community/make an announcement (no action necessary)
@@ -26,7 +26,7 @@ body:
   - type: dropdown
     id: audience
     attributes:
-      label: What is the intended audience(s) for this content? (Select all that apply)
+      label: What is the intended audience(s) for this content? (select all that apply)
       multiple: true
       options:
         - Any/All/Don't know
@@ -45,7 +45,7 @@ body:
   - type: dropdown
     id: platforms
     attributes:
-      label: Are there any specific platforms where you would like this to be shared? (Select all that apply)
+      label: Are there any specific platforms where you would like this to be shared? (select all that apply)
       multiple: true
       options:
         - Any/All/Don't know
