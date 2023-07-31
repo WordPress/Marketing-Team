@@ -77,6 +77,7 @@ body:
         - "#GrowYourStoryWP"
         - "#WPBriefing"
         - "#WordCamp"
+        - None/Not sure/Other
     validations:
       required: true
   - type: dropdown
@@ -108,7 +109,7 @@ body:
         - Tide
         - Training
         - TV
-        - Other
+        - None/Other
     validations:
       required: true
   - type: input
