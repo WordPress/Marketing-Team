@@ -5,9 +5,10 @@ labels: ["amplification-request"]
 assignees:
   - bjmcsherry
   - eidolonnight
-  # Will require update each year for new team reps
-  - sereedmedia
-  - robinwpdeveloper
+  # Team reps: Will require update each year
+  - jennimckinnon
+  - bernard0omnisend
+  - Greennc
 body:
   - type: markdown
     attributes:
