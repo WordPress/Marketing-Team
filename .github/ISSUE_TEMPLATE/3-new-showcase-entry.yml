@@ -1,0 +1,85 @@
+name: "[Team-use Only] Showcase Moderation"
+description: Only use this issue form to submit information from the Showcase submission review sheet. See the project handbook for details.
+title: "[SHOWCASE]: "
+labels: ["showcase"]
+assignees:
+  - eidolonnight
+body:
+  - type: markdown
+    attributes:
+      value:
+        Please enter the submission data as it appears in the Google sheet. This form should only be used by Showcase moderators and should NOT be used to submit new Showcase entries. If you would like to submit a new site, please visit the [Showcase submission page](https://wordpress.org/showcase/submit-a-wordpress-site/).
+  - type: input
+    id: row
+    attributes:
+      label: Submission ID
+      placeholder: ex. 1337
+    validations:
+      required: true
+  - type: input
+    id: site_url
+    attributes:
+      label: Site URL
+      placeholder: ex. https://wordpress.org/news
+    validations:
+      required: true
+  - type: input
+    id: submission_date
+    attributes:
+      label: Submission date
+      placeholder: ex. 24 May 2022
+    validations:
+      required: true
+  - type: input
+    id: submitter
+    attributes:
+      label: Submitter
+      placeholder: ex. Wapuu
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      placeholder: ex. Wapuu
+    validations:
+      required: false
+  - type: input
+    id: theme
+    attributes:
+      label: Theme
+      placeholder: ex. Twenty Twenty-four
+    validations:
+      required: false
+  - type: input
+    id: launch
+    attributes:
+      label: Launched On
+      placeholder: ex. 24 May 2022
+    validations:
+      required: false
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      placeholder: ex. US
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Submission
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any additional notes or details?
+    validations:
+      required: false
