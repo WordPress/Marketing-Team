@@ -1,0 +1,39 @@
+name: Request for Minor Release Amplification
+description: Request amplification of a minor WordPress release.
+title: "[AMPLIFY RELEASE]: WordPress X.Y.Z"
+labels: ["amplification-request", "release-amplification"]
+assignees:
+  - bjmcsherry
+  - eidolonnight
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version number
+      placeholder: WordPress X.Y.Z
+    validations:
+      required: true
+  - type: dropdown
+    id: release-type
+    attributes:
+      label: Release type
+      multiple: false
+      options:
+        - Maintenance
+        - Security
+        - Maintenance and Security
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to release announcement on WordPress.org News
+      placeholder: https://wordpress.org/news
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Optional notes and details
+    validations:
+      required: false
