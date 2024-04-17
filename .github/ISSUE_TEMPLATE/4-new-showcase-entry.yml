@@ -1,7 +1,7 @@
 name: "[Team-use Only] Showcase Moderation"
 description: Only use this issue form to submit information from the Showcase submission review sheet. See the project handbook for details.
 title: "[SHOWCASE]: "
-labels: ["showcase"]
+labels: ["showcase", "needs copy", "needs images"]
 assignees:
   - eidolonnight
 body:
