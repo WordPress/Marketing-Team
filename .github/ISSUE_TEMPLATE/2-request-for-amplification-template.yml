@@ -4,11 +4,10 @@ title: "[AMPLIFY]: "
 labels: ["amplification-request"]
 assignees:
   - bjmcsherry
-  - eidolonnight
+  - dansoschin
   # Team reps: Will require update each year
   - jennimckinnon
   - bernard0omnisend
-  - Greennc
 body:
   - type: markdown
     attributes:
@@ -57,13 +56,9 @@ body:
         - Instagram
         - Linkedin
         - YouTube
-        - Pinterest
-        - Tiktok
-        - Tumblr
         - Threads
         - Email
-        - This Month in WordPress
-        - WordPress media
+        - WordPress Media
     validations:
       required: true
   - type: dropdown
