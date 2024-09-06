@@ -4,7 +4,7 @@ title: "[AMPLIFY RELEASE]: WordPress X.Y.Z"
 labels: ["amplification-request", "release-amplification"]
 assignees:
   - bjmcsherry
-  - dansoschin
+  - eidolonnight
 body:
   - type: input
     id: version

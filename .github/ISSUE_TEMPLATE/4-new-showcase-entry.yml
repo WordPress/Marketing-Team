@@ -3,7 +3,8 @@ description: Only use this issue form to submit information from the Showcase su
 title: "[SHOWCASE]: "
 labels: ["showcase", "needs copy", "needs images"]
 assignees:
-  - dansoschin
+  - thetinyl
+  - eidolonnight
 body:
   - type: markdown
     attributes:
