@@ -7,6 +7,13 @@ assignees:
   - eidolonnight
 body:
   - type: input
+    id: release-time-date
+    attributes:
+      label: Expected release time
+      placeholder: 2003-05-27 05:07 UTC
+    validations:
+      required: true
+  - type: input
     id: version
     attributes:
       label: Version number
