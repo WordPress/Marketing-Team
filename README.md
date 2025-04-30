@@ -17,4 +17,4 @@ View the Marketing Team's central tasks and projects board:
 
 Marketing team discussions and decisions happen on GitHub. Each week we meet in the Marketing team Slack channel to review the open projects and tasks. This helps the team to discuss any issues and share any wins. It also generates greater marketing and cross-team communication and visibility. 
 
-You can also follow WordPress on social media platforms and help amplify our messages: [WordPress Social Media](https://make.wordpress.org/marketing/handbook/social-media-accounts/).
+You can also follow WordPress on social media platforms and help amplify our messages: [WordPress Social Media](https://make.wordpress.org/marketing/handbook/social-media/).
