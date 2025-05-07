@@ -8,23 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Need help spreading the news? The Marketing team can help amplify MakeWP content across the WordPress ecosystem.
-  - type: dropdown
-    id: request-type
-    attributes:
-      label: What is the goal of this amplification request? (select all that apply)
-      multiple: true
-      options:
-        - Inform community/make an announcement (no action necessary)
-        - Solicit feedback
-        - Recruit volunteers
-        - Other
-    validations:
-      required: true
+        Need help spreading the news? The Marketing team can help amplify messages across the WordPress ecosystem of social platforms, emails, and more.
   - type: dropdown
     id: audience
     attributes:
-      label: What is the intended audience(s) for this content? (select all that apply)
+      label: Who is the intended audience(s) for this content? (select all that apply)
       multiple: true
       options:
         - Any/All/Don't know
@@ -40,84 +28,11 @@ body:
         - Agencies/Enterprise
     validations:
       required: true
-  - type: dropdown
-    id: platforms
-    attributes:
-      label: Are there any specific platforms where you would like this to be shared? (select all that apply)
-      multiple: true
-      options:
-        - Any/All/Don't know
-        - Twitter/X
-        - Facebook
-        - Instagram
-        - Linkedin
-        - YouTube
-        - Threads
-        - Email
-        - WordPress Media
-    validations:
-      required: true
-  - type: dropdown
-    id: campaign
-    attributes:
-      label: Campaign
-      description: Is this amplification request part of an existing WordPress campaign?
-      multiple: true
-      options:
-        - "#LearnWP"
-        - "#WPDiversity"
-        - "#WPOpenverse"
-        - "#WPPhotos"
-        - "#GrowYourStoryWP"
-        - "#WPBriefing"
-        - "#WordCamp"
-        - None/Not sure/Other
-    validations:
-      required: true
-  - type: dropdown
-    id: make-team
-    attributes:
-      label: MakeWP Team
-      description: What MakeWP Team is this request for?  (Select all that apply)
-      multiple: true
-      options:
-        - Accessibility
-        - CLI
-        - Community
-        - Core
-        - Core Performance
-        - Design
-        - Documentation
-        - Hosting
-        - Marketing
-        - Meta
-        - Mobile
-        - Openverse
-        - Photos
-        - Plugins Review
-        - Polyglots
-        - Sustainability
-        - Support
-        - Test
-        - Themes
-        - Tide
-        - Training
-        - TV
-        - None/Other
-    validations:
-      required: true
-  - type: input
-    id: summary
-    attributes:
-      label: What do you want to amplify?
-      description: Please provide a short, one-sentence summary of your request.
-    validations:
-      required: true
   - type: textarea
     id: content
     attributes:
       label: Amplification request details
-      description: Please describe what you are looking to amplify or promote. Include as many details as possible. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      description: Please describe what you are looking to amplify or promote, and why. Include as many details as possible. If you have specific content that you would like to use, please note that here. If you would like additional help, please consult the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
     validations:
       required: true
   - type: input
@@ -128,25 +43,11 @@ body:
       placeholder: E.x. "https://wordpress.org/news - This is a link to the page we want people to go to"
     validations:
       required: false
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      description: Is there a firm deadline for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
-      placeholder: E.x. 24 May 2024
-    validations:
-      required: false
   - type: textarea
     id: important-dates
     attributes:
-      label: Additional important dates
-      description: Are there any other relevant dates for this request? Please add additional context as needed.
-    validations:
-      required: false
-  - type: textarea
-    id: notes
-    attributes:
-      label: Any additional notes or details? If you marked "Other" above, please provide additional details here.
-      placeholder:
+      label: Desired date(s) of publication
+      description: Is there a desired poublication date or dates for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      placeholder: E.x. 24 May 2024
     validations:
       required: false
