@@ -1,11 +1,15 @@
 name: Marketing Issue
 description: Submit a general marketing request, comment, or idea
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this template for actionable marketing requests. For ideas, feedback, and other topics, please [open a new discussion instead](https://github.com/WordPress/Marketing-Team/discussions).
   - type: textarea
     id: comment
     attributes:
       label: Comment
-      description: What is your request, comment, or idea?
+      description: What is your request?
       placeholder: Submit your request
     validations:
       required: true
