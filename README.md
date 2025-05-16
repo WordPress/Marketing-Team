@@ -7,4 +7,4 @@ The WordPress marketing team is not currently meeting weekly, but this repositor
 
 ----
 
-You can also follow WordPress on social media platforms and help amplify our messages: [WordPress Social Media](https://make.wordpress.org/marketing/handbook/social-media-accounts/).
+You can also follow WordPress on social media platforms and help amplify our messages: [WordPress Social Media](https://make.wordpress.org/marketing/handbook/social-media/).
