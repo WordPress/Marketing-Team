@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Social Writer"
+  short_description: "Turn a WordPress feed item into per-platform social posts"
+  default_prompt: "Use $wordpress-social-writer to turn this WordPress post into per-platform social media copy."

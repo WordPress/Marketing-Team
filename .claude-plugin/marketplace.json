@@ -1,0 +1,19 @@
+{
+  "name": "wordpress-marketing-team",
+  "owner": {
+    "name": "WordPress Marketing Team",
+    "url": "https://make.wordpress.org/marketing/"
+  },
+  "metadata": {
+    "description": "Marketing assets for the WordPress open source project — AI agent skills for on-brand writing and social content.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "wordpress-marketing-skills",
+      "source": "./",
+      "description": "WordPress brand-voice writing skills: WordPress.org/news posts, WordCamp recaps, and multi-platform social copy.",
+      "version": "0.1.0"
+    }
+  ]
+}
