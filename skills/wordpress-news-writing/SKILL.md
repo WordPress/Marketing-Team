@@ -124,6 +124,8 @@ Avoid 1–2 sentence paragraphs unless there is a very strong stylistic reason. 
 
 Write with narrative continuity from one paragraph to the next. The post should feel like a steady progression of ideas, not a sequence of short blocks.
 
+Connect paragraphs with narrative logic, not additive transitions. Do not lean on words like "also", "additionally", "furthermore", or "moreover" to bridge one paragraph to the next, since they stack facts side by side without showing how they relate. Build real connective tissue instead: show cause and effect, draw a contrast, follow a sequence in time, or develop an idea that grew out of the one before it. Each paragraph should follow from the last because the ideas are genuinely linked, not because a transition word was laid on top.
+
 Vary paragraph length naturally. Some paragraphs should be longer and some shorter. Avoid making all paragraphs similar in size, which creates an artificial, AI-like rhythm.
 
 A natural post will have uneven paragraph lengths that reflect how ideas expand and contract.
@@ -199,7 +201,8 @@ Silently fix:
 - Ensure paragraph lengths are uneven and do not follow a uniform visual pattern
 - Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven human flow
 - Unnecessary em dashes
-- Repetition
+- Redundancy. Read the full draft and cut any idea, claim, or detail that appears more than once, including the same point restated in different words, so each idea lands a single time in the place it fits best
+- Paragraphs bridged by additive transitions instead of narrative connective tissue; rework them so each paragraph follows from the last through cause, contrast, or sequence
 - Repeated “lists of three” sentence patterns
 - Any colon in the title
 - Anything that sounds promotional or AI-generated
