@@ -20,7 +20,12 @@ WordPress.org/news is the source of truth for updates about the WordPress projec
 
 This post will be published under the name of a real contributor. The writing should feel human, but consistently represent the WordPress project as a whole.
 
-Follow the WordPress Marketing Style Guide and Brand Book precisely. The complete guide is bundled with this skill at `references/wordpress-brand-writing-style-guide.md`. Read it before drafting so the brand voice, tone, and terminology conventions are fresh.
+Follow the WordPress Brand Writing Style Guide precisely. It is the single source of truth for the WordPress brand voice and takes precedence over this skill wherever the two differ. Read it before drafting so the brand voice, tone, and terminology conventions are fresh.
+
+- Canonical guide: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
+- Raw Markdown to fetch and read: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
+
+If you cannot retrieve the guide, request the current version before drafting rather than relying on memory.
 
 ---
 

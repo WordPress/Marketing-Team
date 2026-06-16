@@ -2,7 +2,7 @@
 
 Reusable **skills** for writing and checking content for the WordPress open source project. Each one captures the WordPress.org brand voice, terminology, and editorial conventions so an AI agent can produce on-brand drafts for the project's marketing and communications work.
 
-A *skill* is a self-contained capability an AI agent can load on demand. Each skill bundles everything it needs — its instructions, any brand reference material, and any helper scripts — in a single directory, so a skills-aware agent can discover it, decide when it applies, and run it.
+A *skill* is a largely self-contained capability an AI agent can load on demand. Each skill bundles its instructions and any helper scripts in a single directory and references the shared WordPress Brand Writing Style Guide by URL, so a skills-aware agent can discover it, decide when it applies, and run it.
 
 These skills produce public-facing WordPress content. Treat anything they generate as a draft for human review before it is published under a contributor's name or posted to an official channel.
 
@@ -12,7 +12,7 @@ These skills produce public-facing WordPress content. Treat anything they genera
 
 | Skill | What it does |
 |---|---|
-| `wordpress-news-writing/` | Drafts posts for [WordPress.org/news](https://wordpress.org/news/) in the WordPress project voice, following the WordPress Marketing Style Guide and Brand Book (bundled in `references/`). The foundational writing skill the others build on. |
+| `wordpress-news-writing/` | Drafts posts for [WordPress.org/news](https://wordpress.org/news/) in the WordPress project voice, following the [WordPress Brand Writing Style Guide](https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md). The foundational writing skill the others build on. |
 | `wordcamp-event-recap/` | Drafts a flagship WordCamp event recap for WordPress.org/news from real event notes and live event sources. Builds on `wordpress-news-writing`. |
 | `wordpress-social-writer/` | Turns a single feed item (post title, URL, content) into ready-to-publish, per-platform social copy for X, Bluesky, Threads, Mastodon, Facebook, Instagram, LinkedIn, and Tumblr. |
 
@@ -42,7 +42,7 @@ The frontmatter `description` in `SKILL.md` is what a skills-aware runtime reads
 
 > Use $wordpress-news-writing to draft a WordPress.org/news post in the WordPress project voice.
 
-**By hand in any LLM client.** A skill is just Markdown. Open its `SKILL.md`, paste the body into your assistant of choice, attach anything it references (the bundled `references/` files, your event notes, the feed item), and supply the inputs it asks for.
+**By hand in any LLM client.** A skill is just Markdown. Open its `SKILL.md`, paste the body into your assistant of choice, attach anything it references (the WordPress Brand Writing Style Guide from its URL, your event notes, the feed item), and supply the inputs it asks for.
 
 Because these skills produce public WordPress content, always review and fact-check the output before publishing.
 
@@ -50,5 +50,5 @@ Because these skills produce public WordPress content, always review and fact-ch
 
 ## Conventions
 
-- **Keep skills self-contained.** Everything a skill needs at runtime travels with it: instructions in `SKILL.md`, reference docs under `references/`, helpers under `scripts/`. A skill should not depend on files outside its own directory.
+- **Keep skills self-contained, with one shared exception.** Everything else a skill needs at runtime travels with it: instructions in `SKILL.md`, helpers under `scripts/`, and any skill-specific docs under `references/`. The single shared dependency is the WordPress Brand Writing Style Guide, which the writing skills reference by URL so they all use one canonical source instead of drifting copies.
 - **Output is a draft.** Every skill here writes or assesses official WordPress content. A person reviews before anything ships.
