@@ -18,6 +18,7 @@ This repository also hosts a small library of reusable **skills** for AI agents 
 * **wordpress-news-writing** — drafts [WordPress.org/news](https://wordpress.org/news/) posts following the [WordPress Brand Writing Style Guide](https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md).
 * **wordcamp-event-recap** — drafts flagship WordCamp recaps from real event notes and live event sources.
 * **wordpress-social-writer** — turns a single feed item into ready-to-publish, per-platform social copy.
+* **wordpress-showcase-writer** — drafts a two-paragraph [WordPress Showcase](https://wordpress.org/showcase/) site description from a submitted site.
 
 See [`skills/README.md`](skills/README.md) for what each skill does and how to use it.
 

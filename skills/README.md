@@ -15,6 +15,7 @@ These skills produce public-facing WordPress content. Treat anything they genera
 | `wordpress-news-writing/` | Drafts posts for [WordPress.org/news](https://wordpress.org/news/) in the WordPress project voice, following the [WordPress Brand Writing Style Guide](https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md). The foundational writing skill the others build on. |
 | `wordcamp-event-recap/` | Drafts a flagship WordCamp event recap for WordPress.org/news from real event notes and live event sources. Builds on `wordpress-news-writing`. |
 | `wordpress-social-writer/` | Turns a single feed item (post title, URL, content) into ready-to-publish, per-platform social copy for X, Bluesky, Threads, Mastodon, Facebook, Instagram, LinkedIn, and Tumblr. |
+| `wordpress-showcase-writer/` | Drafts a two-paragraph [WordPress Showcase](https://wordpress.org/showcase/) site description from a submitted Site URL, submitter Description, and Reason for Submission. Reads the live site to ground the copy, and follows the WordPress Marketing Style Guide and Brand Book (read from the canonical copy online in the WordPress/marketing repo). |
 
 Some skills build on another: `wordcamp-event-recap` follows the rules in `wordpress-news-writing`, so keep them together.
 

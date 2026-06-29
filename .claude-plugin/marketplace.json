@@ -12,7 +12,7 @@
     {
       "name": "wordpress-marketing-skills",
       "source": "./",
-      "description": "WordPress brand-voice writing skills: WordPress.org/news posts, WordCamp recaps, and multi-platform social copy.",
+      "description": "WordPress brand-voice writing skills: WordPress.org/news posts, WordCamp recaps, multi-platform social copy, and WordPress Showcase site descriptions.",
       "version": "0.1.0"
     }
   ]

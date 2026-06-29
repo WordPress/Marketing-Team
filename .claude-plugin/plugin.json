@@ -1,7 +1,7 @@
 {
   "name": "wordpress-marketing-skills",
   "version": "0.1.0",
-  "description": "On-brand WordPress marketing writing skills for AI agents: WordPress.org/news posts, WordCamp event recaps, and per-platform social copy in the WordPress project voice.",
+  "description": "On-brand WordPress marketing writing skills for AI agents: WordPress.org/news posts, WordCamp event recaps, per-platform social copy, and WordPress Showcase site descriptions in the WordPress project voice.",
   "author": {
     "name": "WordPress Marketing Team",
     "url": "https://make.wordpress.org/marketing/"

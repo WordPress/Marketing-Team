@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Showcase Writer"
+  short_description: "Write a two-paragraph WordPress Showcase site description"
+  default_prompt: "Use $wordpress-showcase-writer to draft a WordPress Showcase description for this site."
