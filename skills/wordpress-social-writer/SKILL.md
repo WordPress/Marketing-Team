@@ -23,12 +23,12 @@ Your voice is the WordPress project's voice. You sound like a knowledgeable frie
 
 ## WordPress brand voice and style reference
 
-This section is a condensed summary of the WordPress Brand Writing Style Guide, the single source of truth for the WordPress brand voice. Follow it precisely. For anything not covered here, read the full guide, which takes precedence over this summary wherever the two differ.
+Always fetch and read the full WordPress Brand Writing Style Guide before drafting. It is the foundation of the WordPress brand voice, and it fills in anything this skill does not cover. If the guide and this skill conflict, this skill wins: it contains deliberate, social-specific exceptions to the general guide.
 
 - Canonical guide: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
 - Raw Markdown to fetch and read: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
 
-If you cannot retrieve the guide, request the current version before drafting rather than relying on memory.
+The summary below is a fallback, not a substitute. Rely on it alone only if retrieving the guide is impossible (for example, you have no network access or the fetch fails). Never rely on memory of the guide.
 
 ### Voice
 
@@ -108,7 +108,11 @@ Official communication from the WordPress project. Content includes major and mi
 Developer-specific news. The audience is people who build with and extend WordPress—plugin authors, theme developers, core contributors. Use precise technical language where the source does (block bindings, Interactivity API, hook names), but keep the sentence structure simple. Don't dilute technical content for a general audience; this source targets developers specifically.
 
 ### wordpress.org/showcase
-An official showcase of standout WordPress websites. Focus on who built the site and what makes it notable. Mention the organization or brand by name. The angle is "look what WordPress powers" without being promotional about WordPress itself—let the site speak for the platform. If the source mentions the underlying technology (e.g., WooCommerce, a specific theme or plugin), you may name it, but do not reframe the post around a technology comparison. The lead should always be the site and who is behind it.
+An official showcase of standout WordPress websites. Lead with the site and who is behind it: what it offers, who it serves, and what makes it notable. Mention the organization or brand by name. The angle is "look what WordPress powers" without being promotional about WordPress itself—let the site speak for the platform. A mention of the WordPress Showcase already tells the reader the site is built with WordPress, so don't also state that the site runs on WordPress unless the statement adds something the Showcase mention doesn't carry (a specific capability or detail from the source). One WordPress mention per post is usually enough. If the source mentions the underlying technology (e.g., WooCommerce, a specific theme or plugin), you may name it, but do not reframe the post around a technology comparison.
+
+Refer to the showcased site by its Showcase entry title, never by its domain. Social platforms auto-link bare domains, and a domain that appears in the copy can be treated as the post's primary link, generating a preview of the showcased site instead of the Showcase page. The Showcase link must be the only URL or domain in the post.
+
+Distinguish the organization from its website. The Showcase entry title names the entity behind the site, and that entity is more than its web presence. WordPress powers the website, not the organization, so never state or imply that the organization itself runs on WordPress. Any phrasing that keeps this relationship accurate works: WordPress can be attributed to the site, or the organization can be described as using WordPress to accomplish something. Vary the phrasing naturally across platforms rather than settling into a single formula.
 
 ### WordCamp regional events (asia.wordcamp.org, europe.wordcamp.org, us.wordcamp.org)
 Community-organized regional WordPress conferences. Lead with the essential detail: what is happening, and when or where. If registration is opening, say so directly. If a schedule or speaker lineup is announced, highlight it. If it's a call for volunteers or speakers, make that the focus. Include the city and dates when available in the source. Use the event's proper name (WordCamp Asia 2026, WordCamp Europe 2026, WordCamp US 2025).
@@ -432,36 +436,36 @@ WordPress 6.8 brings Block Bindings, an API that lets you wire block attributes 
 
 ```
 x_post:
-The Rolling Stone website runs on WordPress. See it in the WordPress Showcase. https://wp.me/example
+The Acme Magazine website brings together daily news, reviews, and long-form features for readers everywhere. Find it in the WordPress Showcase. https://wp.me/example
 
 bluesky_post:
-Rolling Stone's website is built on WordPress. See how one of the most recognized media brands uses the platform. https://wp.me/example
+Acme Magazine's website pairs daily news with a deep archive of reviews and features, all in one place. It's now featured in the WordPress Showcase. https://wp.me/example
 
 #WordPressShowcase
 
 threads_post:
-Rolling Stone runs on WordPress. The Showcase features a closer look at how one of the most recognized names in music journalism uses the platform. https://wp.me/example
+Acme Magazine uses WordPress to publish everything from daily news to long-form features. The Showcase takes a closer look at how the publication's site handles it all, from its review archive to its multimedia coverage. https://wp.me/example
 
 #WordPressShowcase
 
 mastodon_post:
-The Rolling Stone website is built on WordPress. It's one of many major media sites that rely on WordPress for publishing at scale. The Showcase has the details on their setup and approach. https://wp.me/example
+The Acme Magazine website manages a large archive of reviews alongside daily news and multimedia features. The WordPress Showcase has a closer look at how the site publishes at that scale. https://wp.me/example
 
 #WordPressShowcase
 
 facebook_post:
-Rolling Stone runs on WordPress. See how they use the platform in the WordPress Showcase. https://wp.me/example
+WordPress helps Acme Magazine deliver daily news, reviews, and features to readers everywhere. See how the publication's site comes together in the Showcase. https://wp.me/example
 
 instagram_post:
-Rolling Stone's website is powered by WordPress. See it in the Showcase. Link in bio.
+Acme Magazine's website brings news, reviews, and features together in one place. Casual readers and devoted fans alike will find it in the WordPress Showcase. Link in bio.
 
 linkedin_post:
-Rolling Stone, one of the most recognized names in music journalism, runs its website on WordPress. The WordPress Showcase highlights how major media brands use the platform to publish at scale. https://wp.me/example
+Acme Magazine's website serves a global readership with daily news, an extensive review archive, and multimedia features. The WordPress Showcase highlights how the publication built a site that publishes at scale. https://wp.me/example
 
 #WordPressShowcase
 
 tumblr_post:
-Rolling Stone runs on WordPress. The Showcase is full of sites like this. Big names, all built on the same open source platform anyone can use. https://wp.me/example
+Acme Magazine's website puts daily news, reviews, and long-form features side by side. You'll find it in the WordPress Showcase with sites of every size, all built on the same open source platform anyone can use. https://wp.me/example
 
 #WordPressShowcase
 ```
@@ -479,6 +483,10 @@ Rolling Stone runs on WordPress. The Showcase is full of sites like this. Big na
 **Too vague:**
 "Big things are coming to WordPress. Check out what's new!"
 
+**Too choppy:**
+"The Acme Magazine website runs on WordPress. It has news, reviews, and features. See it in the WordPress Showcase."
+Three short, disconnected statements, and WordPress is named twice when the Showcase mention already implies it. Let sentences connect and build on each other so the post reads as one thought.
+
 **Too generic across platforms:**
 Writing the same sentence for X, LinkedIn, and Mastodon with only the character count changed. Each platform should feel like it was written for that platform.
 
@@ -495,3 +503,4 @@ Writing the same sentence for X, LinkedIn, and Mastodon with only the character 
 7. Each platform's text is meaningfully different—not the same sentence reformatted.
 8. Each field value is a complete, ready-to-publish post. No placeholders, no bracketed instructions.
 9. No em dashes (—) appear anywhere in the output. If you find one, rewrite the sentence.
+10. For Showcase posts: the post link is the only URL or domain in the output, the showcased site is referred to by its Showcase entry title (never its domain), no post states or implies that the organization itself runs on WordPress, and the phrasing of that relationship varies across platforms.
