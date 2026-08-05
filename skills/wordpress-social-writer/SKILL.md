@@ -154,6 +154,7 @@ DON'T:
 - Use more than one exclamation mark across all platform outputs combined (zero is usually better)
 - Add emoji unless the platform instructions below specifically permit it
 - Use em dashes (—) anywhere in the output. They look like AI-generated copy. Use periods, commas, colons, or rewrite the sentence instead
+- Use the @ symbol anywhere in the output, for any reason. Platforms turn @ followed by text into an account mention, and an unintended tag can notify or implicate a real account. Refer to people and organizations by name only
 
 ---
 
@@ -504,3 +505,4 @@ Writing the same sentence for X, LinkedIn, and Mastodon with only the character 
 8. Each field value is a complete, ready-to-publish post. No placeholders, no bracketed instructions.
 9. No em dashes (—) appear anywhere in the output. If you find one, rewrite the sentence.
 10. For Showcase posts: the post link is the only URL or domain in the output, the showcased site is referred to by its Showcase entry title (never its domain), no post states or implies that the organization itself runs on WordPress, and the phrasing of that relationship varies across platforms.
+11. No @ symbol appears anywhere in the output, on any platform. People and organizations are referred to by name, never tagged.
